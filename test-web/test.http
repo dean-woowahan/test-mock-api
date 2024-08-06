@@ -1,0 +1,27 @@
+### TEST API mock-delay
+GET http://localhost:10001/mock-delay
+
+### TEST API release-mock-delay
+GET http://localhost:10001/release-mock-delay
+
+
+### SUPER2 API test 톰캣 쓰레드
+GET https://localhost:8099/test1
+
+### SUPER2 API test2 코루틴 디스패처 쓰레드
+GET https://localhost:8099/test2
+
+### SUPER2 API test3 API 호출 async awaitAll
+GET https://localhost:8099/test3
+
+### SUPER2 API test4 delay() async awaitAll
+GET https://localhost:8099/test4
+
+### SUPER2 API test5 delay()
+GET https://localhost:8099/test5
+
+### SUPER2 API test6 retrofit
+GET https://localhost:8099/test6
+
+### SUPER2 API test7 API 호출 retrofit async awaitAll
+GET https://localhost:8099/test7
